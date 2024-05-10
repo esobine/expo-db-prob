@@ -1,6 +1,6 @@
 Reproducible example:
 
-I have a problem with requesting the database with expo-sqlite.
+I have a problem with requesting the database with expo-sqlite tested with expo go.
 test.db script :
 
 ```
@@ -29,7 +29,7 @@ I created these two table manually. I also inserted 2 lines in UserData and 1 li
 
 I tried in App.js line 14, function loadDataBase() to load my existing database. This code is based on this tutorial https://www.youtube.com/watch?v=dl74XgJYK1A.<br>
 With expo 51 I also tried to pass database through SQLiteProvider with this `assetSource={{ assetId: require('./assets/test.db') }}` (cf. https://docs.expo.dev/versions/latest/sdk/sqlite/#import-an-existing-database).
-It seems to be working the same.
+It seems to be working the same on expo go.
 
 #### Get tables name
 
